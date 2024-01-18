@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react_basic/static/css/main.783e0e1f.css",
+    "main.js": "/react_basic/static/js/main.cad97807.js",
+    "static/js/787.d4aba7ab.chunk.js": "/react_basic/static/js/787.d4aba7ab.chunk.js",
+    "static/media/pngwing.com+(1).png": "/react_basic/static/media/pngwing.com+(1).91389a775d80acea4ff9.png",
+    "static/media/particleicon.svg": "/react_basic/static/media/particleicon.1a350e56a87a8392a68faf699cfc5bd1.svg",
+    "index.html": "/react_basic/index.html",
+    "main.783e0e1f.css.map": "/react_basic/static/css/main.783e0e1f.css.map",
+    "main.cad97807.js.map": "/react_basic/static/js/main.cad97807.js.map",
+    "787.d4aba7ab.chunk.js.map": "/react_basic/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.783e0e1f.css",
+    "static/js/main.cad97807.js"
+  ]
+}
