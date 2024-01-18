@@ -90,7 +90,7 @@ useEffect(()=>{
           // pin:"#svg",
           start: "top top",
           end: "bottom bottom",
-          markers:true
+          //markers:true
       }
     })
     .to("#box", {motionPath:{
