@@ -1,0 +1,168 @@
+.mybody{
+    background-color: black;
+    /* background: linear-gradient(45deg,red , blue ); */
+    /* top:0; */
+    /* left: 0; */
+    background: radial-gradient(circle at top center ,rgba(0, 51, 61, 0.9) 0%,rgba(0 , 0, 0, 1) 80% )!important;
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rubik Burned';
+    font-size: 30px;
+}
+.mybodyblob{
+  display: flex;
+  background: radial-gradient(circle at top center ,rgba(0, 51, 61, 0.9) 0%,rgba(0 , 0, 0, 1) 80% )!important;
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rubik Burned';
+    font-size: 30px;
+
+}
+#particles-js{
+  width: 100%;
+  height: 100%;
+}
+h1{
+  color: azure;
+  font-size: 100px;
+}
+#blob{
+  /* transform: skew(30deg,0); */
+  display: flex;
+  padding: 20px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  /* animation-name: blob; */
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  z-index: 900;
+}
+
+#blob:hover{
+  width: 300px;
+  height: 300px;
+  padding: 0px;
+}
+#box-shadow{
+  color:black
+}
+#box-shadow:hover{
+  border-radius: 30px;
+  box-shadow: inset 0 0 60px whitesmoke,
+  inset 0 0 80px #f0f,
+  inset -20px 0 80px #0ff,
+  inset 20px 0 300px #f0f,
+  inset -20px 0 300px #0ff,
+  0 0 50px rgb(255, 255, 255),
+  -10px 0 80px #f0f,
+  10px 0 80px #0ff; 
+  
+}
+
+#card{
+  display: grid;
+  width: 6.5cm;
+  height: 9cm;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+}
+#card-img{
+  padding: 20px;
+  width: 6.5cm;
+  height:9cm;
+}
+#card-img:hover{
+  padding: 10px;
+  
+}
+.img-card:hover{
+  box-shadow:0 0 50px rgb(255, 255, 255);
+
+}
+
+
+
+
+/* .form-control:focus + .form-label {
+  color: red;
+}  */
+
+/* svg {
+  font-family: sans-serif;
+}
+
+text {
+    font-size: 50px;
+    fill: green;
+    translate: (0,0,0);
+    animation: wavyText 1.3s alternate ease-in-out infinite;
+  }
+  
+  .w {
+    animation-delay: 0;
+  }
+  
+  .a {
+    animation-delay: 0.1s;
+  }
+  
+  .v {
+    animation-delay: 0.15s;
+  }
+  
+  .y {
+    animation-delay: 0.2s;
+  }
+  
+  @keyframes wavyText {
+    0% {
+      transform: translate3d(0, 0px ,10);
+    }
+    10% {
+      transform: translate3d(3px, 3px ,2);
+    }
+    20%{
+        transform: translate3d(4px,2px,0);
+    }
+    50%{
+        transform: translate3d(1px,0px,0);
+    }
+    70%{
+        transform: translate3d(4px,0px,1);
+    }
+    100%{
+        transform: translate(1px,5px) translateZ(20px);
+    }
+  }
+  /* @keyframes wavyText {
+    0% {
+      translate: (0, 0px ,10);
+    }
+    10% {
+      translate: (3px, 3px ,2);
+    }
+    20%{
+        translate: (4px,2px,0);
+    }
+    50%{
+        translate: (1px,0px,0);
+    }
+    70%{
+        translate: (4px,0px,1);
+    }
+    100%{
+        translate: (1px,5px,10);
+    }
+  } */ 
